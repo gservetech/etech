@@ -24,22 +24,27 @@ export default function Copyright({ country }) {
 }
 const data = [
   {
+    key:"1",
     name: "Privacy Center",
     link: "https://www.google.com/",
   },
   {
+    key:"2",
     name: "Privacy & Cookie Policy",
     link: "https://www.google.com/",
   },
   {
+    key:"3",
     name: "Manage Cookies",
     link: "https://www.google.com/",
   },
   {
+    key:"4",
     name: "Terms & Conditions",
     link: "https://www.google.com/",
   },
   {
+    key:"5",
     name: "Copyright Notice",
     link: "https://www.google.com/",
   },

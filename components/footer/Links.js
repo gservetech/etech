@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function Links() {
   return (
     <div className={styles.footer__links}>
-      {links.map((k, i) => (
+      {/* {links.map((key, i) => (
         <ul key={key}>
           {i === 0 ? (
             <Image src="../../../logo.png" />
@@ -19,7 +19,7 @@ export default function Links() {
             </li>
           ))}
         </ul>
-      ))}
+      ))} */}
     </div>
   );
 }

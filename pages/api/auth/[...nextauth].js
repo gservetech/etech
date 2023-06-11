@@ -75,7 +75,7 @@ export default NextAuth({
     strategy: "jwt",
   },
   // database: process.env.MONGODB_URI,
-  secret: process.env.JWT_SECRET,
+  secret: process.env.NEXTAUTH_SECRET,
 });
 
 const SignInUser = async ({ password, user }) => {

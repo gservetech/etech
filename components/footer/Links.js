@@ -29,19 +29,19 @@ const links = [
     links: [
       {
         name: "About us",
-        link: "",
+        link: "https://www.google.com/",
       },
       {
         name: "Contact us",
-        link: "",
+        link: "https://www.google.com/",
       },
       {
         name: "Social Responsibility",
-        link: "",
+        link: "https://www.google.com/",
       },
       {
         name: "",
-        link: "",
+        link: "https://www.google.com/",
       },
     ],
   },
@@ -50,23 +50,23 @@ const links = [
     links: [
       {
         name: "Shipping Info",
-        link: "",
+        link: "https://www.google.com/",
       },
       {
         name: "Returns",
-        link: "",
+        link: "https://www.google.com/",
       },
       {
         name: "How To Order",
-        link: "",
+        link: "https://www.google.com/",
       },
       {
         name: "How To Track",
-        link: "",
+        link: "https://www.google.com/",
       },
       {
         name: "Size Guide",
-        link: "",
+        link: "https://www.google.com/",
       },
     ],
   },
@@ -75,19 +75,19 @@ const links = [
     links: [
       {
         name: "Customer service",
-        link: "",
+        link: "https://www.google.com/",
       },
       {
         name: "Terms and Conditions",
-        link: "",
+        link: "https://www.google.com/",
       },
       {
         name: "Consumers (Transactions)",
-        link: "",
+        link: "https://www.google.com/",
       },
       {
         name: "Take our feedback survey",
-        link: "",
+        link: "https://www.google.com/",
       },
     ],
   },

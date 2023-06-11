@@ -7,7 +7,7 @@ import Head from "next/head";
 import { SessionProvider } from "next-auth/react";
 
 let persistor = persistStore(store);
-export default function App({ Component, pageProps: {session, ...pageProps} }) {
+export default function App({ Component, pageProps: { session, ...pageProps } }) {
   return <>
     <Head>
       <title>Shoppay</title>
@@ -17,8 +17,8 @@ export default function App({ Component, pageProps: {session, ...pageProps} }) {
       />
       <link rel="icon" href="/favicon.ico" />
     </Head>
-    DDDDDDDDDDDDDDDDD
-   {/*  <SessionProvider session={session}>
+     FFFFFFFFFFFFFFF
+    <SessionProvider session={session}>
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
 
@@ -26,6 +26,7 @@ export default function App({ Component, pageProps: {session, ...pageProps} }) {
 
         </PersistGate>
       </Provider>
-    </SessionProvider> */}
+    </SessionProvider>
+
   </>
 }

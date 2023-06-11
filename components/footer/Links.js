@@ -1,25 +1,23 @@
 import Link from "next/link";
 import styles from "./styles.module.scss";
-import Image from 'next/image';
 
 export default function Links() {
   return (
     <div className={styles.footer__links}>
-      {/* {links.map((key, i) => (
-        <ul key={key}>
+      {links.map((link, i) => (
+        <ul>
           {i === 0 ? (
-            <Image src="../../../logo.png" />
-          
+            <img src="../../../logo.png" alt="" />
           ) : (
             <b>{link.heading}</b>
           )}
-          {links.map((key,link) => (
-            <li key={key}>
+          {link.links.map((link) => (
+            <li>
               <Link href={link.link}>{link.name}</Link>
             </li>
           ))}
         </ul>
-      ))} */}
+      ))}
     </div>
   );
 }
@@ -28,24 +26,20 @@ const links = [
     heading: "SHOPPAY",
     links: [
       {
-        key:"1",
         name: "About us",
-        link: "https://www.google.com/",
+        link: "",
       },
       {
-        key:"2",
         name: "Contact us",
-        link: "https://www.google.com/",
+        link: "",
       },
       {
-        key:"3",
         name: "Social Responsibility",
-        link: "https://www.google.com/",
+        link: "",
       },
       {
-        key:"4",
-        name: "ddd",
-        link: "https://www.google.com/",
+        name: "",
+        link: "",
       },
     ],
   },
@@ -53,29 +47,24 @@ const links = [
     heading: "HELP & SUPPORT",
     links: [
       {
-        key:"45",
         name: "Shipping Info",
-        link: "https://www.google.com/",
+        link: "",
       },
       {
-        key:"48",
         name: "Returns",
-        link: "https://www.google.com/",
+        link: "",
       },
       {
-        key:"43",
         name: "How To Order",
-        link: "https://www.google.com/",
+        link: "",
       },
       {
-        key:"33",
         name: "How To Track",
-        link: "https://www.google.com/",
+        link: "",
       },
       {
-        key:"443",
         name: "Size Guide",
-        link: "https://www.google.com/",
+        link: "",
       },
     ],
   },
@@ -83,24 +72,20 @@ const links = [
     heading: "Customer service",
     links: [
       {
-        key:"4433333",
         name: "Customer service",
-        link: "https://www.google.com/",
+        link: "",
       },
       {
-        key:"44333",
         name: "Terms and Conditions",
-        link: "https://www.google.com/",
+        link: "",
       },
       {
-        key:"443333",
         name: "Consumers (Transactions)",
-        link: "https://www.google.com/",
+        link: "",
       },
       {
-        key:"44333",
         name: "Take our feedback survey",
-        link: "https://www.google.com/",
+        link: "",
       },
     ],
   },

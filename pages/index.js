@@ -12,7 +12,7 @@ export default function Home({ country }) {
     <>
       
       <Header country = { country }/>
-      <div> TEST DDDDDDDDDDDDDDDDD</div>
+    
       <Footer country = { country } />
 
 

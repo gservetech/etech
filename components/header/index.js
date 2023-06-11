@@ -5,7 +5,7 @@ import styles from "./styles.module.scss";
 
 export default function Header({ country, searchHandler }) {
   return (
-    <header className={styles.header}>
+    <header className={styles.header}>TEST
       <Ad />
   {/*     <Top country= { country }/>
       <Main  /> */}

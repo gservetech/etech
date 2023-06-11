@@ -10,9 +10,9 @@ export default function Home({ country }) {
  
   return (
     <>
-    TEST DDDDDDDDDDDDDDDDD
+      
       <Header country = { country }/>
-     
+      <div> TEST DDDDDDDDDDDDDDDDD</div>
       <Footer country = { country } />
 
 

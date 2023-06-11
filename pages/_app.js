@@ -17,7 +17,7 @@ export default function App({ Component, pageProps: { session, ...pageProps } })
       />
       <link rel="icon" href="/favicon.ico" />
     </Head>
-     FFFFFFFFFFFFFFF
+ 
     <SessionProvider session={session}>
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>

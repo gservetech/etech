@@ -4,7 +4,9 @@ import styles from "./styles.module.scss";
 export default function Links() {
   return (
     <div className={styles.footer__links}>
-      {links.map((link, i) => (
+
+      gg
+      {/* {links.map((link, i) => (
         <ul>
           {i === 0 ? (
             <img src="../../../logo.png" alt="" />
@@ -17,7 +19,7 @@ export default function Links() {
             </li>
           ))}
         </ul>
-      ))}
+      ))} */}
     </div>
   );
 }

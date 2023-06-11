@@ -9,7 +9,7 @@ export default function Copyright({ country }) {
         <ul>
           {data.map((link) => (
             <li>
-              <Link href={link.link}>{link.name}</Link>
+              {/* <Link href={link.link}>{link.name}</Link> */} TEST
             </li>
           ))}
           <li>
